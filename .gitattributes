@@ -1,0 +1,10 @@
+# Jupyter Notebook files - mark as documentation/generated to exclude from language stats
+*.ipynb linguist-generated=true
+*.ipynb linguist-documentation
+
+# Alternative: mark as vendored (third-party code)
+# *.ipynb linguist-vendored
+
+# Mark specific file types
+*.html linguist-detectable=false
+*.xml linguist-detectable=false
