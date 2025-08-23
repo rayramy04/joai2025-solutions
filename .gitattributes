@@ -1,10 +1,5 @@
-# Jupyter Notebook files - keep as-is to show ML/DS work
-# Output has been cleared so file size is reasonable (~33KB)
-
-# Alternative configurations if needed later:
-# *.ipynb linguist-generated=true  # Exclude from stats entirely
-# *.ipynb linguist-documentation   # Mark as documentation
-# *.ipynb linguist-language=Python # Count as Python
+# Jupyter Notebook files - exclude from language statistics
+*.ipynb linguist-vendored
 
 # Mark specific file types
 *.html linguist-detectable=false
